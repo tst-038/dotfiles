@@ -22,7 +22,7 @@ This NeoVim configuration is designed to provide a modern development environmen
 > - ChezMoi: Install chezmoi by following the [official guide](https://www.chezmoi.io/install/).
 > - Git: You'll need Git to clone this repository.
 
-### 1. Temporary Installation
+### 1. 📦 Isolated Installation
 
 Ideal if you want to try out this configuration without affecting your existing NeoVim setup, you can use the NVIM_APPNAME environment variable:
 
@@ -52,7 +52,7 @@ You're done! That was easy init?! Launch NeoVim with the following command!
 NVIM_APPNAME=tst-nvim nvim
 ```
 
-### 2. Install / Override current configuration
+### 2. 🔧 Install / Override current configuration
 
 > [!CAUTION]
 > This will override your current NeoVim setup!
