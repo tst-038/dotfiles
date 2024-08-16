@@ -30,8 +30,10 @@ Ideal if you want to try out this configuration without affecting your existing 
 
 ```bash
 git clone https://github.com/tst-038/dotfiles.git ~/tst-dotfiles
-mkdir -p ~/.config/tst-nvim
-cp ~/tst-dotfiles/.config/nvim ~/.config/nvim
+mkdir -p ~/.config/tst-nvim && \
+cp -r ~/tst-dotfiles/dot_config/nvim ~/.config/tst-nvim && \
+mv ~/.config/tst-nvim/nvim/* ~/.config/tst-nvim && \
+rmdir ~/.config/tst-nvim/nvim
 ```
 
 #### Remove unnecessary files (optional but recommended)
@@ -76,7 +78,7 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 ```bash
 git clone https://github.com/tst-038/dotfiles ~/tst-dotfiles
 mkdir -p ~/.config/nvim
-cp ~/tst-dotfiles/.config/nvim ~/.config/nvim
+cp -r ~/tst-dotfiles/dot_config/nvim ~/.config/nvim
 ```
 
 #### Remove unnecessary files (optional but recommended)
