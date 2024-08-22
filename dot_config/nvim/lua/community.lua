@@ -17,11 +17,12 @@ return {
 	{ import = "astrocommunity.pack.java" },
 	{ import = "astrocommunity.pack.lua" },
 	{ import = "astrocommunity.pack.markdown" },
+	{ import = "astrocommunity.pack.python" },
 
 	-- NOTE: ColorSchemes
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
-	{ import = "astrocommunity.colorscheme.tokyodark-nvim" },
-	{ import = "astrocommunity.colorscheme.catppuccin" },
+	--{ import = "astrocommunity.colorscheme.tokyodark-nvim" },
+	-- { import = "astrocommunity.colorscheme.catppuccin" },
 
 	-- import/override with your plugins folder
 }
