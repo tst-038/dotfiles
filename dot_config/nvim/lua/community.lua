@@ -18,6 +18,7 @@ return {
 	{ import = "astrocommunity.pack.lua" },
 	{ import = "astrocommunity.pack.markdown" },
 	{ import = "astrocommunity.pack.python" },
+	{ import = "astrocommunity.pack.typescript" },
 
 	-- NOTE: ColorSchemes
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
