@@ -6,24 +6,24 @@
 
 ---@type LazySpec
 return {
-	"AstroNvim/astrocommunity",
-	{ import = "astrocommunity.recipes.vscode" },
+  "AstroNvim/astrocommunity",
+  { import = "astrocommunity.recipes.vscode" },
 
-	-- NOTE: Coding Languages Support
-	{ import = "astrocommunity.pack.bash" },
-	{ import = "astrocommunity.pack.cpp" },
-	-- WARN: Did not install correctly
-	-- { import = "astrocommunity.pack.haskell" },
-	{ import = "astrocommunity.pack.java" },
-	{ import = "astrocommunity.pack.lua" },
-	{ import = "astrocommunity.pack.markdown" },
-	{ import = "astrocommunity.pack.python" },
-	{ import = "astrocommunity.pack.typescript" },
+  -- NOTE: Coding Languages Support
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.cpp" },
+  -- WARN: Did not install correctly
+  -- { import = "astrocommunity.pack.haskell" },
+  { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.python-ruff" },
+  { import = "astrocommunity.pack.typescript" },
 
-	-- NOTE: ColorSchemes
-	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
-	--{ import = "astrocommunity.colorscheme.tokyodark-nvim" },
-	-- { import = "astrocommunity.colorscheme.catppuccin" },
+  -- NOTE: ColorSchemes
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  --{ import = "astrocommunity.colorscheme.tokyodark-nvim" },
+  -- { import = "astrocommunity.colorscheme.catppuccin" },
 
-	-- import/override with your plugins folder
+  -- import/override with your plugins folder
 }
