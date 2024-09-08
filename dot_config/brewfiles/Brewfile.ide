@@ -1,0 +1,15 @@
+tap "homebrew/cask-fonts"
+
+# IDEs and Text Editors
+brew "neovim"  # IDE/Text Editor
+brew "tree-sitter"  # Syntax parsing for IDEs
+brew "lazygit"
+brew "bottom"
+cask "kitty"   # Terminal emulator
+cask "font-jetbrains-mono-nerd-font"
+
+# Zsh and Terminal Enhancements
+brew "zsh"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+brew "jandedobbeleer/oh-my-posh/oh-my-posh", link: false

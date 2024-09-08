@@ -1,0 +1,7 @@
+tap "homebrew/bundle"
+
+brew "git"
+brew "jq"
+brew "ripgrep"
+brew "shellcheck"
+brew "tmux"

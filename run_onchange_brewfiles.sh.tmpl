@@ -1,0 +1,9 @@
+# ~/.local/share/chezmoi/run_onchange_brewfiles.sh.tmpl
+#!/bin/bash
+
+# Checksum of the Brewfiles
+# brewfiles hash: {{ include "Brewfile.dev" | sha256sum }} {{ include "Brewfile.game" | sha256sum }} {{ include "Brewfile.ide" | sha256sum }} {{ include "Brewfile.langs" | sha256sum }}
+
+# Run your installation script
+echo "Running brew installation script..."
+bash "{{ .chezmoi.sourceDir }}/scripts/install_brew.sh"

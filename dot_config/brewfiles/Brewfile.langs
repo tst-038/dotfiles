@@ -1,0 +1,8 @@
+# Programming Languages and tools
+brew "python@3.12"
+brew "openjdk"
+brew "kotlin"
+brew "maven"
+brew "gradle"
+brew "node"
+brew "typescript"

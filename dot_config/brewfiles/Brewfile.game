@@ -1,0 +1,3 @@
+# Gaming-related casks
+cask "curseforge"
+cask "minecraft"

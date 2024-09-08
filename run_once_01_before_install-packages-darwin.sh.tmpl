@@ -1,0 +1,20 @@
+{{- if eq .chezmoi.os "darwin" -}}
+#!/bin/bash
+
+# Check if HomeBrew is installed
+if ! command -v brew &> /dev/null; then
+  echo "HomeBrew not found, installing..."
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+else
+  echo "HomeBrew already installed"
+fi
+
+# Make sure the Brewfiles are in place before executing the script
+if [ -d ~/.config/brewfiles ]; then
+    # Run the installation script
+    ~/.chezmoi/scripts/homebrew.sh
+else
+    echo "Brewfiles are not available in ~/.config/brewfiles. Skipping installation."
+fi
+
+{{ end -}}
