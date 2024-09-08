@@ -4,7 +4,8 @@
 # brewfiles hash: {{ include (joinPath .chezmoi.sourceDir "dot_config/brewfiles/Brewfile.dev") | sha256sum }} \
 #                 {{ include (joinPath .chezmoi.sourceDir "dot_config/brewfiles/Brewfile.game") | sha256sum }} \
 #                 {{ include (joinPath .chezmoi.sourceDir "dot_config/brewfiles/Brewfile.ide") | sha256sum }} \
-#                 {{ include (joinPath .chezmoi.sourceDir "dot_config/brewfiles/Brewfile.langs") | sha256sum }}
+#                 {{ include (joinPath .chezmoi.sourceDir "dot_config/brewfiles/Brewfile.langs") | sha256sum }} \
+#                 {{ include (joinPath .chezmoi.sourceDir "dot_config/brewfiles/Brewfile.other") | sha256sum }}
 
 # Run your installation script
 echo "Running brew installation script..."

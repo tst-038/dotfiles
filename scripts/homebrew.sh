@@ -162,13 +162,17 @@ install_from_brewfile "$HOME/.config/brewfiles/Brewfile.ide" "IDE & Terminal"
 printf "\n${MAGENTA}Developer Tools:${NC}\n" >/dev/tty
 install_from_brewfile "$HOME/.config/brewfiles/Brewfile.dev" "Developer tools"
 
-# Developer tools
+# Programming languages & tools
 printf "\n${MAGENTA}Programming languages & Tools:${NC}\n" >/dev/tty
 install_from_brewfile "$HOME/.config/brewfiles/Brewfile.langs" "Programming languages"
 
 # Game tools
 printf "\n${MAGENTA}Game Tools:${NC}\n" >/dev/tty
 install_from_brewfile "$HOME/.config/brewfiles/Brewfile.game" "Game tools"
+
+# Other
+printf "\n${MAGENTA}Other:${NC}\n" >/dev/tty
+install_from_brewfile "$HOME/.config/brewfiles/Brewfile.other" "Other"
 
 # Perform the batch installation
 perform_installations

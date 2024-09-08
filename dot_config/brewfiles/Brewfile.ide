@@ -6,6 +6,7 @@ brew "tree-sitter"  # Syntax parsing for IDEs
 brew "lazygit"
 brew "bottom"
 cask "kitty"   # Terminal emulator
+cask "jetbrains-toolbox"
 cask "font-jetbrains-mono-nerd-font"
 
 # Zsh and Terminal Enhancements
