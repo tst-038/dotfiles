@@ -125,3 +125,5 @@ fi
 doctest() {
     python -m doctest "$@"
 }
+
+nerdfetch && echo

@@ -5,6 +5,7 @@ brew "neovim"  # IDE/Text Editor
 brew "tree-sitter"  # Syntax parsing for IDEs
 brew "lazygit"
 brew "bottom"
+brew "nerdfetch"
 cask "kitty"   # Terminal emulator
 cask "jetbrains-toolbox"
 cask "font-jetbrains-mono-nerd-font"
