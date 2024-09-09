@@ -49,5 +49,10 @@
     }
   ],
   "final_space": true,
-  "version": 2
+  "version": 2,
+  "transient_prompt": {
+    "foreground": "#18354c",
+    "template": "\ue0b0",
+    "newline": true
+  }
 }
