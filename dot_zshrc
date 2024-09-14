@@ -106,6 +106,7 @@ alias grep="grep --colour=auto"
 alias vim=nvim
 alias fzf="fzf --preview='bat --color=always {}'"
 alias cat="bat --color=always {}"
+alias clear="clear && nerdfetch && echo"
 
 # Set nvim as the default editor
 export EDITOR="nvim"
