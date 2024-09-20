@@ -4,6 +4,7 @@ return {
 	requires = {
 		"rcarriga/nvim-notify",
 		"nvim-telescope/telescope.nvim",
+		"nvim-tree/nvim-web-devicons",
 		"nvim-lua/plenary.nvim",
 	},
 
@@ -15,7 +16,7 @@ return {
 		})
 	end,
 
-	cmd = { "DodonaSubmit", "DodonaInitActivities", "DodonaInitCourseActivities", "DodonaDownload", "DodonaGo" },
+	cmd = { "DodonaSetToken", "DodonaSubmit", "DodonaInit", "DodonaSearch", "DodonaDownload", "DodonaGo" },
 	dependencies = {
 		{
 			"AstroNvim/astrocore",
@@ -26,8 +27,9 @@ return {
 						[prefix .. "g"] = { ":DodonaGo<CR>", desc = "Go to Dodona" },
 						[prefix .. "s"] = { ":DodonaSubmit<CR>", desc = "Submit buffer" },
 						[prefix .. "d"] = { ":DodonaDownload<CR>", desc = "Download exercise files" },
-						[prefix .. "a"] = { ":DodonaInitActivities<CR>", desc = "Initialize Series Activities" },
-						[prefix .. "c"] = { ":DodonaInitCourseActivities<CR>", desc = "Initialize Course Activities" },
+						[prefix .. "f"] = { ":DodonaSearch<CR>", desc = "Initialize Series Activities" },
+						[prefix .. "i"] = { ":DodonaInit<CR>", desc = "Initialize Course / Serie / Activity" },
+						[prefix .. "t"] = { ":DodonaSetToken<CR>", desc = "Sets the dodona API token" },
 					},
 				},
 			},
