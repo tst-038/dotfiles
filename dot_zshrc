@@ -133,4 +133,17 @@ doctest() {
     python -m doctest "$@"
 }
 
+declare -A dir_map=(
+  ["tst"]="/Volumes/tst-038/"
+  ["interieur"]="/Volumes/Interieur_Inrichting_Thienpondt_Patrick/"
+)
+
+cd() {
+  if [[ -n "${dir_map[$1]}" ]]; then
+    builtin cd "${dir_map[$1]}"
+  else
+    builtin cd "$@"
+  fi
+}
+
 nerdfetch && echo
