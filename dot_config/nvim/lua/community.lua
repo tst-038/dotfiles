@@ -12,8 +12,7 @@ return {
   -- NOTE: Coding Languages Support
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.cpp" },
-  -- WARN: Did not install correctly
-  -- { import = "astrocommunity.pack.haskell" },
+  { import = "astrocommunity.pack.haskell" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
